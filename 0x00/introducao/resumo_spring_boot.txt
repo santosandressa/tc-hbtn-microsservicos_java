@@ -1,0 +1,19 @@
+O Spring Boot Framework é como se fosse uma extensão do Spring Framework, só que com alguns recursos a mais,
+como um servidor embutido (Tomcat) e configurações iniciais já pré definidas.
+O principal recurso é o Sprint Boot, módulo que auxilia nas configurações dos outros módulos.
+O Spring Boot Starters compõem este framework, estes “iniciadores” são dependências, que encapsulam outras dependências.
+O Spring Boot autoconfigure, toma as melhores decisões baseada no seu classpath, assim realizando as configurações necessárias
+Para rodar a aplicação. Spring Boot actuator é um outro módulo de monitoramento e gerenciamento das aplicações, através de logging,
+ healthcheck etc
+Os benefícios de utilizar o Spring Boot são:
+- Criação de aplicações independentes
+- Redução de código
+- Configuração e gerenciamento simplificada
+- Não é preciso a configuração de arquivo XML
+- Criação de componentes independentes
+Para adicionar novas dependências, precisamos incluí-las nas dependências do arquivo POM.xml
+e o maven irá se encarregar de baixar e gerenciá-las.
+Por ser uma IDE desenvolvida apenas para o Spring Boot, talvez o uso do Spring Tools Suite seja mais apropriado,
+mas assim como STS, desenvolver pelo IntelliJ é bastante prático e atual.
+O Spring Initializr é um website que facilita a criação de aplicações e toda a sua estrutura,
+Com ele é possível definir nome do projeto, packages, dependências, linguagem e sua versão.
