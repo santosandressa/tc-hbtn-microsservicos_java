@@ -1,20 +1,26 @@
 package com.song.demo;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.logging.Logger;
 
 @RestController
 public class SongController {
 
-    @GetMapping
-    public String teste(){
-        return "teste";
+    private SongRepository songRepository;
+
+    public SongController(SongRepository songRepository) {
+        this.songRepository = songRepository;
     }
 
-    @Autowired
-    private SongRepository songRepository;
+    final Logger LOG =  Logger.getLogger(SongController.class.getName());
+
+    @GetMapping
+    public String teste(){
+        LOG.info("GET teste");
+        return "teste";
+    }
 
     @GetMapping("/welcome")
     public String mensagemBoasVindas() {
