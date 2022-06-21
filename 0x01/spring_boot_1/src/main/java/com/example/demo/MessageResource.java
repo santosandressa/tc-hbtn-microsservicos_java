@@ -18,7 +18,7 @@ public class MessageResource {
         user = "andressa";
         password = "12345a";
 
-        if(user.isEmpty() || password.isEmpty()){
+        if(user == null || password == null){
             return "USUÁRIO E SENHA NÃO INFORMADOS";
         } else if (user.length() > 15 || password.length() > 15){
             return "USUÁRIO E SENHA INVÁLIDOS";
