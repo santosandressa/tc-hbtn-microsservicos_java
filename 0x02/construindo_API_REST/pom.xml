@@ -9,13 +9,19 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.song</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>SongAPI</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>SongApiApplication</name>
     <description>construindo_API_REST</description>
+
     <properties>
         <java.version>11</java.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <main.class>com.song.demo.SongApiApplication</main.class>
+        <start-class>com.song.demo.SongApiApplication</start-class>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -34,6 +40,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 
     <build>
         <plugins>
