@@ -1,6 +1,5 @@
-package example.jpah2demo;
+package com.example.jpah2demo;
 
-import example.jpah2demo.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

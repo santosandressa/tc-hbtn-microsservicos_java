@@ -1,4 +1,4 @@
-package example.jpah2demo.com.example.jpah2demo;
+package com.example.jpah2demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
