@@ -1,4 +1,4 @@
-package com.example.jpah2demo;
+package example.jpah2demo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

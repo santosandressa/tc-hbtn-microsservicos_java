@@ -1,4 +1,7 @@
-package com.example.jpah2demo;
+package example.jpah2demo;
+
+import example.jpah2demo.com.example.jpah2demo.Endereco;
+import example.jpah2demo.com.example.jpah2demo.Telefone;
 
 import javax.persistence.*;
 import java.util.List;

@@ -1,8 +1,8 @@
-package com.example.jpah2demo;
+package example.jpah2demo.com.example.jpah2demo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ClienteRepository extends JpaRepository<Cliente, Long> {
+public interface TelefoneRepository extends JpaRepository<Telefone, Long> {
 }
