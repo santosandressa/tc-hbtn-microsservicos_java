@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="63348799-6ef6-4698-a53a-ce0eec58eb93" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../criando_spring_boot_JPA/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../criando_spring_boot_JPA/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../criando_spring_boot_JPA/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../criando_spring_boot_JPA/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../criando_spring_boot_JPA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../criando_spring_boot_JPA/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../criando_spring_boot_JPA/target/classes/Captura.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../criando_spring_boot_JPA/target/classes/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../criando_spring_boot_JPA/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../criando_spring_boot_JPA/target/classes/com/techcamps/demo/DemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../criando_spring_boot_JPA/target/classes/demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../criando_spring_boot_JPA/target/classes/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../criando_spring_boot_JPA/target/classes/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../criando_spring_boot_JPA/target/classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../criando_spring_boot_JPA/target/classes/target/classes/Captura.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../criando_spring_boot_JPA/target/classes/target/classes/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../criando_spring_boot_JPA/target/classes/target/classes/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../criando_spring_boot_JPA/target/classes/target/classes/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../criando_spring_boot_JPA/target/classes/target/classes/pom.xml" beforeDir="false" />
+    <list default="true" id="63348799-6ef6-4698-a53a-ce0eec58eb93" name="Changes" comment="task 1 - packaging">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +15,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2Aw0bv7D78NLnAvYoLZMGHfHm8l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,7 +48,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/andressas/Documentos/tc-hbtn-microsservicos_java/0x03/empacotar_aplicacao"
+    "last_opened_file_path": "/home/andressas/Documentos/viradonojiraya",
+    "spring.configuration.checksum": "efba9f8e9bce79abe0f348b2b08e9d8a"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -55,7 +63,18 @@
       <workItem from="1655905415961" duration="45000" />
       <workItem from="1655905514684" duration="24000" />
       <workItem from="1655905741315" duration="163000" />
+      <workItem from="1655905922622" duration="143000" />
+      <workItem from="1655908213528" duration="33000" />
+      <workItem from="1655908280945" duration="608000" />
     </task>
+    <task id="LOCAL-00001" summary="task 1 - packaging">
+      <created>1655906035002</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655906035002</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,5 +90,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="task 1 - packaging" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 1 - packaging" />
   </component>
 </project>
