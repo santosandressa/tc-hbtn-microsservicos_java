@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "0746c296-eb8b-4d6d-8c42-0b0b769e19ba",
+		"name": "MEGASENA API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21523693"
+	},
+	"item": [
+		{
+			"name": "BOAS VINDAS",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "a7b1b2b6-40f6-47e7-9870-323060ba95c8",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/megaSena-api/megasena/simpleMessageWelcome",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"megaSena-api",
+						"megasena",
+						"simpleMessageWelcome"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gerador de Números",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/megaSena-api/megasena/getNumbers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"megaSena-api",
+						"megasena",
+						"getNumbers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
