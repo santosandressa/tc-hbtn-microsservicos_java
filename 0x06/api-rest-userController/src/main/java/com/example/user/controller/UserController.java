@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/users")
-public class UserControlller {
+public class UserController {
 
     @GetMapping("/user-id/{id}")
     public String findUserById(@PathVariable int id) {
