@@ -35,8 +35,8 @@ public class MegaSenaController {
         Collections.shuffle(numeros);
 
         List<Integer> novaLista = new ArrayList<>();
-        for (int i = 0; i < 6; i++){
 
+        for (int i = 0; i < 6; i++){
             novaLista.add(numeros.get(i));
         }
 
