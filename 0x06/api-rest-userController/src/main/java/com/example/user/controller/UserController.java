@@ -17,7 +17,7 @@ public class UserController {
     public String findUserById(@PathVariable int id) {
         String msg = "You have entered valid ID";
 
-        if (id < 1 || id > 100) {
+        if (!(id > 0) || !(id < 100)) {
             throw new UserIdException();
         }
 
@@ -29,7 +29,7 @@ public class UserController {
 
         String msg = "You have entered valid USERNAME";
 
-        if (userName.length() < 3 || userName.length() > 15) {
+        if (!(userName.length() > 3) || !(userName.length() < 15)) {
             throw new UserNameException();
         }
 

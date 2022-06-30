@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="288b1134-5138-4f4e-85e0-c3c486d2ba91" name="Changes" comment="task 0 - tch packages" />
+    <list default="true" id="288b1134-5138-4f4e-85e0-c3c486d2ba91" name="Changes" comment="task 0 - tch arrumando packages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/user/exception/UserIdException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/user/exception/UserIdException.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,15 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/andressas/Documentos/tc-hbtn-microsservicos_java/0x06/api-rest-userController&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;6d392949936282bfda90f9722a82ffcd&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/andressas/Documentos/tc-hbtn-microsservicos_java/0x07/api-rest-calculator",
+    "spring.configuration.checksum": "6d392949936282bfda90f9722a82ffcd"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="UserApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="UserApi" />
@@ -57,6 +65,9 @@
       <updated>1656512268448</updated>
       <workItem from="1656512269610" duration="262000" />
       <workItem from="1656512663415" duration="10000" />
+      <workItem from="1656512708563" duration="1592000" />
+      <workItem from="1656527245952" duration="838000" />
+      <workItem from="1656591135409" duration="197000" />
     </task>
     <task id="LOCAL-00001" summary="task 0 - tch packages">
       <created>1656512377032</created>
@@ -72,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656512475046</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="task 0 - tch arrumando packages">
+      <created>1656512762394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656512762394</updated>
+    </task>
+    <task id="LOCAL-00004" summary="task 0 - tch arrumando packages">
+      <created>1656512811168</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656512811168</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="task 0 - tch packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 0 - tch packages" />
+    <MESSAGE value="task 0 - tch arrumando packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 0 - tch arrumando packages" />
   </component>
 </project>
