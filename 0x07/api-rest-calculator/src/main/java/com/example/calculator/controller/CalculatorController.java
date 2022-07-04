@@ -15,8 +15,6 @@ import java.time.temporal.ChronoUnit;
 @RequestMapping(value = "/calculator")
 public class CalculatorController {
 
-
-
     @GetMapping("/welcome")
     public String messageWelcome() {
         return "Bem vindo à CALCULATOR API REST.";

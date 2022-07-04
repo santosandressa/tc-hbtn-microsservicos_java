@@ -18,8 +18,6 @@ class CalculatorTest {
 
     @Test
     public void sumTest() {
-
-
         Double result = calculator.sum(1.0, 2.0);
 
         assertEquals(3.0, result);
@@ -52,7 +50,6 @@ class CalculatorTest {
 
     @Test
     public void divisionNullTest(){
-
         assertThrows(NullPointerException.class, () -> calculator.divide(null, 2.0));
     }
 
